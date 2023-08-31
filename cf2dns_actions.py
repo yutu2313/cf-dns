@@ -33,6 +33,7 @@ if len(sys.argv) >= 2:
     RECORD_TYPE = sys.argv[1]
 else:
     RECORD_TYPE = "A"
+    RECORD_TYPE = "AAAA"
 
 
 def get_optimization_ip():
